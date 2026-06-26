@@ -45,3 +45,4 @@ def atualizar_tarefa(id: int, tarefa_atualizada: TarefaUpdate):
     _tarefas[id]["concluida"] = tarefa_atualizada.concluida
     
     return _tarefas[id]
+# Commit para o PR
